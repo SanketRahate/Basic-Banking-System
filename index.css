@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 1.3rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  ul {
+    width: 100%;
+    height: 68px;
+    background-color: rgba(67, 0, 175, 0.796);
+    list-style-type: none;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+  }
+  li a:hover {
+    background-color: rgb(220, 174, 143);
+    color: black;
+  }
+  
+  h1 {
+    color: rgb(52, 162, 206);
+    font-size: 70;
+  }
+  img {
+    float: right;
+    width: 900;
+    height: auto;
+  }
+  .column {
+    float: left;
+  }
+  .name {
+    width: 50%;
+    font-size: 50px;
+    margin-top: 50px;
+    padding-left: 10px;
+  }
+  .image {
+    width: 50%;
+  }
+  .footer {
+    font-size: 0.5rem;
+    text-align: center;
+    font-weight: 500;
+    
+  }
+  button {
+    font-size: 0.7rem;
+    background-color: rgb(223, 6, 6);
+    color: rgb(233, 233, 233);
+    padding: 2px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: rgb(148, 9, 9);
+  }
+  /*styling user and transaction table */
+  table,
+  th,
+  td {
+    border: 2px solid rgb(26, 25, 25);
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    padding: 5px;
+  }
+  table {
+    margin: 20px auto;
+  }
+  tr:nth-child(even) {
+    background-color: rgb(140, 138, 138);
+  }
+  th {
+    background-color: rgba(6, 80, 28, 0.842);
+    color: rgb(252, 252, 252);
+  }
+  .form {
+    border: 2px solid rgb(255, 253, 253);
+    border-radius: 20px;
+    width: 50%;
+    height: 250px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: bisque;
+  }
+  .form input[type="text"],
+  select {
+    width: 100%;
+    padding: 5px;
+    font-size: 0.9rem;
+  }
+  .form input[type="submit"] {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    margin: 8px auto;
+    cursor: pointer;
+    padding: 6px;
+  }
+  
+  @media screen and (max-width: 1500px) {
+    .name {
+      width: 100%;
+      font-size: 25px;
+    }
+    img {
+      width: 800px;
+    }
+    .image {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    ul {
+      height: 30px;
+    }
+    li a {
+      padding: 5px;
+      font-size: 0.7rem;
+    }
+    img {
+      width: 400px;
+    }
+    .image {
+      width: 100%;
+    }
+    th,
+    td {
+      padding: 2px;
+      font-size: 15px;
+    }
+  }
+  
